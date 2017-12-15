@@ -18,6 +18,7 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes = require("./routes/index");
 
 // mongoose.connect('mongodb://localhost/yelp_camp', {useMongoClient: true});
+// create environment variable in the termimal: export DATABASEURL = url with no quotes 
 mongoose.connect(process.env.DATABASEURL, {useMongoClient: true});
 app.use(bodyParser.urlencoded({extended: true}));// tells express to use body parser
 app.set('view engine', 'ejs');
