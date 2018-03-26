@@ -1,2 +1,2 @@
-This is me learning and coding along a project from a webdev class by Cold Steele.
-There's probably a lot of the same already here. Nothing special here.
+This is a full stack campsite review project for a webdev class by Cold Steele.
+This is using nodejs express and mongoose.
